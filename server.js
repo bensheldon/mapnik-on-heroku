@@ -1,7 +1,7 @@
 var mapnik = require('mapnik');
 var http = require('http');
 
-var port = 8000;
+var port = process.env.PORT || 3000;
 var stylesheet = './examples/stylesheet.xml';
 
 http.createServer(function(req, res) {
