@@ -2,6 +2,7 @@
     "name": "application-name"
   , "version": "0.0.1"
   , "private": true
+  , "engines"       : { "node": "0.6.x" }
   , "dependencies": {
       "mapnik": "git://github.com/springmeyer/node-mapnik-heroku.git"
   }
