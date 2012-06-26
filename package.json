@@ -4,6 +4,6 @@
   , "private": true
   , "engines"       : { "node": "0.6.x" }
   , "dependencies": {
-      "mapnik": "git://github.com/springmeyer/node-mapnik-heroku.git"
+      "mapnik": "git://github.com/springmeyer/node-mapnik-heroku.git#unicode-and-projections"
   }
 }
